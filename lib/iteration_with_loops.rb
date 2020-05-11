@@ -6,5 +6,5 @@ def join_nested_strings(src)
    ii = 0
    
    while ii < src[i].count do
-     if src[i][ii]
+     if src[i][ii].is_a?
 end
